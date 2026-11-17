@@ -3,7 +3,7 @@ import Lenis from 'lenis';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
-import { usePointerSupport } from './hooks/usePointerSupport';
+import { useReducedMotion } from './hooks/useReducedMotion';
 import { PR_DATA } from './data/gymData';
 
 import Navbar from './components/Navbar';
@@ -21,7 +21,7 @@ import ProgramModal from './components/ProgramModal';
 gsap.registerPlugin(ScrollTrigger);
 
 export default function App() {
-  const { reducedMotion } = usePointerSupport();
+  const reducedMotion = useReducedMotion();
   const lenisRef = useRef(null);
 
   const [selectedPlan, setSelectedPlan] = useState('');

@@ -31,7 +31,7 @@ export default function MembershipSection({ onSelectPlan, reducedMotion }) {
     <section className="section section--charcoal membership" id="membership" data-nav-section>
       <div className="container">
         <div className="section-header-center">
-          <span className="eyebrow eyebrow--on-dark">Membership Plans</span>
+          <span className="eyebrow">Membership Plans</span>
           <h2 className="section-headline section-headline--light">Simple, Flexible Memberships.</h2>
           <p className="section-lead section-lead--on-dark section-lead--center">
             Choose the training tier that fits your goals. Sample INR demonstration pricing shown below.

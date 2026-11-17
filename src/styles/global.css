@@ -118,7 +118,6 @@ button { cursor: pointer; }
   color: var(--orange);
   margin-bottom: 10px;
 }
-.eyebrow--on-dark { color: var(--orange); }
 
 .section-headline {
   font-family: var(--font-display);

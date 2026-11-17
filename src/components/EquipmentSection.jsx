@@ -8,7 +8,7 @@ export default function EquipmentSection() {
       <div className="container">
         <div className="section-header-row">
           <div>
-            <span className="eyebrow eyebrow--on-dark">{eyebrow}</span>
+            <span className="eyebrow">{eyebrow}</span>
             <h2 className="section-headline section-headline--light">{headline}</h2>
           </div>
           <p className="section-lead section-lead--on-dark">{description}</p>
